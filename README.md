@@ -11,12 +11,12 @@ Hệ thống này sử dụng Random Forest Classifier để nhận diện ngôn
 - [Kết quả](#kết-quả)
 - [Cảm ơn](#cảm-ơn)
 
-## Tính năng
+Tính năng
 
 - Thu thập dữ liệu hình ảnh trực tiếp từ camera.
-- Huấn luyện mô hình nhận diện ngôn ngữ ký hiệu dựa trên **Random Forest**.
+- Huấn luyện mô hình nhận diện ngôn ngữ ký hiệu dựa trên Random Forest.
 - Chuyển đổi ký hiệu ngôn ngữ ký hiệu thành văn bản hiển thị và đọc bằng giọng nói.
-- Hỗ trợ giao diện đồ họa thân thiện (GUI) sử dụng **Tkinter**.
+- Hỗ trợ giao diện đồ họa thân thiện (GUI) sử dụng Tkinter.
 
 ## Yêu cầu hệ thống
 
