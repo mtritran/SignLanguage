@@ -25,6 +25,7 @@ Hệ thống này sử dụng **Random Forest Classifier** để nhận diện n
 - Camera (để thu thập dữ liệu từ người dùng).
 
 ### Phần mềm
+- IDE Pycharm
 - Python 3.9+
 - Thư viện cần thiết:
   - OpenCV
@@ -62,8 +63,8 @@ Data/
 
 1. **Clone dự án**:
    ```bash
-   git clone https://github.com/your-repo/sign-language-recognition.git
-   cd sign-language-recognition
+   git clone https://github.com/mtritran/SignLanguage
+   cd sign-language
    ```
 
 2. **Cài đặt các thư viện cần thiết**:
@@ -71,33 +72,42 @@ Data/
    pip install -r requirements.txt
    ```
 
-3. **Tạo thư mục dữ liệu**:
-   - Đảm bảo thư mục `Data` tồn tại trong dự án để lưu trữ hình ảnh.
-
 ## Hướng dẫn sử dụng
 
 ### 1. Thu thập dữ liệu
 - Chạy chương trình thu thập dữ liệu:
   ```bash
-  python dataset_collector.py
+  python collect_imgs.py
   ```
 - Chọn kí tự muốn thu thập dữ liệu (A-Z) và nhấn nút `Start Collection`. Mỗi lớp sẽ thu thập 150 ảnh.
 ![Screenshot 2024-11-29 092237](https://github.com/user-attachments/assets/51dce76c-b1bf-495a-9bc6-5de2fb7e5433)
+- Kết quả thu thập sẽ lưu tất cả các ảnh của của từng kí tự trong folder `Data`.
+![image](https://github.com/user-attachments/assets/600daa37-ba51-44a2-a87f-351b0b4730a4)
 
-
-### 2. Huấn luyện mô hình
+### 2. Xử lý ảnh và lưu tọa độ ảnh vào file pickle:
+- Chạy chương trình xử lý ảnh với thư : 
+  ```bash
+  python create_dataset.py
+  ```
+- Kết quả xử lý sẽ lưu lại file `data.pickle`.
+![image](https://github.com/user-attachments/assets/3a87fbfb-47b9-4c44-acfb-045654347632)
+  
+### 3. Huấn luyện mô hình
 - Chạy chương trình huấn luyện:
   ```bash
-  python train_model.py
+  python train_classifier.py
   ```
 - Kết quả huấn luyện sẽ lưu mô hình đã huấn luyện trong file `data.p`.
+![image](https://github.com/user-attachments/assets/940d61ed-9b45-41a6-bbad-003fe01c667a)
 
-### 3. Sử dụng hệ thống nhận diện
+### 4. Sử dụng hệ thống nhận diện
 - Chạy chương trình nhận diện:
   ```bash
-  python sign_language_translator.py
+  python inference_classifier.py
   ```
 - Hệ thống sẽ sử dụng camera để nhận diện ký hiệu và hiển thị kết quả trong giao diện người dùng.
+![Screenshot 2024-11-29 195204](https://github.com/user-attachments/assets/03f3c220-40d6-45bc-9216-be182e46cc8c)
+- Nhấn vào nút speak để đọc các từ đã nhận diện hoặc nhấn clear để xóa hết các từ vừa nhận diện.
 
 ## Kết quả
 
