@@ -82,7 +82,7 @@ Data/
   python dataset_collector.py
   ```
 - Chọn kí tự muốn thu thập dữ liệu (A-Z) và nhấn nút `Start Collection`. Mỗi lớp sẽ thu thập 150 ảnh.
-![Uploading image.png…]()
+![Screenshot 2024-11-29 092237](https://github.com/user-attachments/assets/51dce76c-b1bf-495a-9bc6-5de2fb7e5433)
 
 
 ### 2. Huấn luyện mô hình
