@@ -1,6 +1,6 @@
 # Hệ thống nhận diện ngôn ngữ ký hiệu bằng Random Forest
 
-Hệ thống này sử dụng **Random Forest Classifier** để nhận diện ngôn ngữ ký hiệu (Sign Language) thông qua hình ảnh bàn tay, với các ký hiệu tương ứng với 26 chữ cái tiếng Anh (A-Z). Hệ thống bao gồm các bước: thu thập dữ liệu, huấn luyện mô hình, và đánh giá kết quả.
+Hệ thống này sử dụng **Random Forest Classifier** để nhận diện ngôn ngữ ký hiệu (Sign Language) thông qua hình ảnh bàn tay, với các ký hiệu tương ứng với 26 chữ cái tiếng Anh (A-Z). Hệ thống bao gồm các bước: thu thập dữ liệu, xử lý dữ liệu, huấn luyện mô hình, và nhận diện kí tự.
 
 ## Mục lục
 
