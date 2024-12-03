@@ -85,7 +85,7 @@ Data/
 ![image](https://github.com/user-attachments/assets/600daa37-ba51-44a2-a87f-351b0b4730a4)
 
 ### 2. Xử lý ảnh và lưu tọa độ ảnh vào file pickle:
-- Chạy chương trình xử lý ảnh với thư : 
+- Chạy chương trình xử lý ảnh với folder Data thu được ở Bước 1: 
   ```bash
   python create_dataset.py
   ```
@@ -93,7 +93,7 @@ Data/
 ![image](https://github.com/user-attachments/assets/3a87fbfb-47b9-4c44-acfb-045654347632)
   
 ### 3. Huấn luyện mô hình
-- Chạy chương trình huấn luyện:
+- Chạy chương trình huấn luyện với file data.pickle thu được ở bước 2:
   ```bash
   python train_classifier.py
   ```
@@ -101,7 +101,7 @@ Data/
 ![image](https://github.com/user-attachments/assets/940d61ed-9b45-41a6-bbad-003fe01c667a)
 
 ### 4. Sử dụng hệ thống nhận diện
-- Chạy chương trình nhận diện:
+- Chạy chương trình nhận diện với file data.p thu được ở bước 3:
   ```bash
   python inference_classifier.py
   ```
