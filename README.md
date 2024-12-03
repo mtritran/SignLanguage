@@ -1,7 +1,12 @@
-HỆ THỐNG NHẬN DIỆN NGÔN NGỮ KÝ HIỆU BẰNG RANDOM FOREST VÀ MEDIAPIPE
+Dưới đây là tệp `README.md` bằng tiếng Việt, được viết dựa trên đoạn mã của bạn:
 
-Hệ thống này sử dụng Random Forest Classifier để nhận diện ngôn ngữ ký hiệu (Sign Language) thông qua hình ảnh bàn tay, với các ký hiệu tương ứng với 26 chữ cái tiếng Anh (A-Z). Hệ thống bao gồm các bước: thu thập dữ liệu, xử lý dữ liệu, huấn luyện mô hình, và đánh giá kết quả.
+---
 
+# Hệ thống nhận diện ngôn ngữ ký hiệu bằng Random Forest
+
+Hệ thống này sử dụng **Random Forest Classifier** để nhận diện ngôn ngữ ký hiệu (Sign Language) thông qua hình ảnh bàn tay, với các ký hiệu tương ứng với 26 chữ cái tiếng Anh (A-Z). Hệ thống bao gồm các bước: thu thập dữ liệu, huấn luyện mô hình, và đánh giá kết quả.
+
+## Mục lục
 
 - [Tính năng](#tính-năng)
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
@@ -11,12 +16,12 @@ Hệ thống này sử dụng Random Forest Classifier để nhận diện ngôn
 - [Kết quả](#kết-quả)
 - [Cảm ơn](#cảm-ơn)
 
-Tính năng
+## Tính năng
 
 - Thu thập dữ liệu hình ảnh trực tiếp từ camera.
-- Huấn luyện mô hình nhận diện ngôn ngữ ký hiệu dựa trên Random Forest.
+- Huấn luyện mô hình nhận diện ngôn ngữ ký hiệu dựa trên **Random Forest**.
 - Chuyển đổi ký hiệu ngôn ngữ ký hiệu thành văn bản hiển thị và đọc bằng giọng nói.
-- Hỗ trợ giao diện đồ họa thân thiện (GUI) sử dụng Tkinter.
+- Hỗ trợ giao diện đồ họa thân thiện (GUI) sử dụng **Tkinter**.
 
 ## Yêu cầu hệ thống
 
