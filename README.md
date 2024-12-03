@@ -1,7 +1,3 @@
-Dưới đây là tệp `README.md` bằng tiếng Việt, được viết dựa trên đoạn mã của bạn:
-
----
-
 # Hệ thống nhận diện ngôn ngữ ký hiệu bằng Random Forest
 
 Hệ thống này sử dụng **Random Forest Classifier** để nhận diện ngôn ngữ ký hiệu (Sign Language) thông qua hình ảnh bàn tay, với các ký hiệu tương ứng với 26 chữ cái tiếng Anh (A-Z). Hệ thống bao gồm các bước: thu thập dữ liệu, huấn luyện mô hình, và đánh giá kết quả.
@@ -29,11 +25,11 @@ Hệ thống này sử dụng **Random Forest Classifier** để nhận diện n
 - Camera (để thu thập dữ liệu từ người dùng).
 
 ### Phần mềm
-- Python 3.8+
+- Python 3.9+
 - Thư viện cần thiết:
   - OpenCV
   - MediaPipe
-  - Tkinter (có sẵn trong Python)
+  - Tkinter 
   - Scikit-learn
   - NumPy
   - Pyttsx3
@@ -85,7 +81,9 @@ Data/
   ```bash
   python dataset_collector.py
   ```
-- Chọn lớp (A-Z) và nhấn nút `Start Collection`. Mỗi lớp sẽ thu thập 150 ảnh.
+- Chọn kí tự muốn thu thập dữ liệu (A-Z) và nhấn nút `Start Collection`. Mỗi lớp sẽ thu thập 150 ảnh.
+![Uploading image.png…]()
+
 
 ### 2. Huấn luyện mô hình
 - Chạy chương trình huấn luyện:
@@ -115,5 +113,3 @@ Dự án này được hoàn thành với sự hỗ trợ của:
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) cho giao diện đồ họa.
 
 --- 
-
-Nếu bạn cần thêm thông tin hoặc chỉnh sửa nội dung, hãy cho tôi biết! 😊
